@@ -88,9 +88,10 @@ header {
   .info__text > .highlight {
     font-size: 2rem;
   }
-  .picture {
+  .visuals {
     grid-area: illustration;
   }
+
   .info {
     grid-area: content;
     margin: 4rem 8rem 4rem 4rem;
