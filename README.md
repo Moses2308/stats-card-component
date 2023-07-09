@@ -26,12 +26,11 @@ Users should be able to:
 ### Screenshot
 
 ![](images/deskshot.jpg)
-![](images/mobileshot.jpg)
 
 ### Links
 
-- Solution URL: [Github Repo](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Solution URL: [Github Repo](https://github.com/Moses2308/stats-card-component)
+- Live Site URL: [Netlify](https://merry-florentine-f83560.netlify.app/)
 
 ## My process
 
