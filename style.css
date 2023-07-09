@@ -23,6 +23,9 @@ body {
   font-size: 15px;
   font-weight: var(--weight-reg);
 }
+header {
+  display: none;
+}
 .stat-card {
   background-color: var(--color-desat-blue);
   border-radius: 0.5rem;
@@ -71,4 +74,29 @@ body {
   font-family: "Lexend Deca", sans-serif;
   margin-top: 0.5rem;
   font-size: 0.75rem;
+}
+
+@media (min-width: 550px) {
+  .stat-card {
+    display: grid;
+    grid-template-areas: "content illustration";
+    grid-template-columns: 1fr 1fr;
+    max-width: 1080px;
+
+    text-align: left;
+  }
+  .info__text > .highlight {
+    font-size: 2rem;
+  }
+  .picture {
+    grid-area: illustration;
+  }
+  .info {
+    grid-area: content;
+    margin: 4rem 8rem 4rem 4rem;
+  }
+  .info__data {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
